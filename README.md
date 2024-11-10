@@ -74,7 +74,7 @@ let newTodo = [
 
 ## Project Structure(프로젝트 구조)
 ```markdown
-object_Based_TodoList_3
+class_Based_TodoList_4
 ├── index.css
 ├── index.html
 ├── index.js
