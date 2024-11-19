@@ -3,8 +3,8 @@
 <br/>
 
 ## What I've learned(배운 점)
-##### 1. [장점]: 객체간의 재사용성이 높고, 유지보수가 쉬움
-##### 2. [단점]: instance(인스턴스)가 많이 생성하므로 Heap 메모리에 할당이 많아 성능이 무거움,
+##### ▪ 클래스를 사용하면 여러 개의 객체를 생성할 수 있는 템플릿이라는 것을 알게 되었고, 이를 사용하면 인스턴스가 여러 개 생성되어 Heap 메모리에 할당이 많아져 성능이 무겁다는 단점을 알게 되었습니다. 하지만 독립적이기 때문에 객체 관리가 편리하다는 장점도 배웠습니다.
+
 ##### [코드 예시]:
 ```Javascript
 const input = document.getElementById('todoInput');
@@ -74,7 +74,7 @@ let newTodo = [
 
 ## Project Structure(프로젝트 구조)
 ```markdown
-class_Based_TodoList_4
+class_Based_TodoList_3
 ├── index.css
 ├── index.html
 ├── index.js
