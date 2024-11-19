@@ -16,8 +16,8 @@ class TodoApp {
     const newTodo = new Todo(this.todos.length + 1, title);
     this.todos.push(newTodo);
     this.update();
+        console.log(newTodo)
   }
-
   getTodos() {
     return this.todos;
   }
